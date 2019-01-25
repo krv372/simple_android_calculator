@@ -104,6 +104,7 @@
 
         </LinearLayout>
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -111,40 +112,40 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/number1"
+                android:id="@+id/number7"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/colorNumbersButton"
                 android:onClick="numberActions"
-                android:text="1"
+                android:text="7"
                 android:textColor="@color/color_text_buttons"
                 android:textSize="20sp" />
 
 
             <Button
-                android:id="@+id/number2"
+                android:id="@+id/number8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/colorNumbersButton"
                 android:onClick="numberActions"
-
-                android:text="2"
+                android:text="8"
                 android:textColor="@color/color_text_buttons"
                 android:textSize="20sp" />
 
 
             <Button
-                android:id="@+id/number3"
+                android:id="@+id/number9"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/colorNumbersButton"
                 android:onClick="numberActions"
-                android:text="3"
+                android:text="9"
                 android:textColor="@color/color_text_buttons"
                 android:textSize="20sp" />
+
 
             <Button
                 android:id="@+id/division_btn"
@@ -157,8 +158,8 @@
                 android:textColor="@color/color_text_buttons"
                 android:textSize="20sp" />
 
-
         </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -222,37 +223,38 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/number7"
+                android:id="@+id/number1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/colorNumbersButton"
                 android:onClick="numberActions"
-                android:text="7"
+                android:text="1"
                 android:textColor="@color/color_text_buttons"
                 android:textSize="20sp" />
 
 
             <Button
-                android:id="@+id/number8"
+                android:id="@+id/number2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/colorNumbersButton"
                 android:onClick="numberActions"
-                android:text="8"
+
+                android:text="2"
                 android:textColor="@color/color_text_buttons"
                 android:textSize="20sp" />
 
 
             <Button
-                android:id="@+id/number9"
+                android:id="@+id/number3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/colorNumbersButton"
                 android:onClick="numberActions"
-                android:text="9"
+                android:text="3"
                 android:textColor="@color/color_text_buttons"
                 android:textSize="20sp" />
 
@@ -267,7 +269,10 @@
                 android:text="+"
                 android:textColor="@color/color_text_buttons"
                 android:textSize="20sp" />
+
+
         </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"
